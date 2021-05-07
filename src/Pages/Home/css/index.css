@@ -1,0 +1,99 @@
+.Home #avatar > svg {
+  width: 20px;
+  fill: black;
+}
+.Home > .call-to-actions,
+.call-to-actions > .user,
+.call-to-actions > div > button {
+  display: flex;
+  align-items: center;
+}
+.Home > .call-to-actions {
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.Home > .call-to-actions > .user > p {
+  margin-left: 0.5rem;
+}
+.Home > .call-to-actions > div {
+  display: flex;
+}
+.Home > .call-to-actions > div > button {
+  padding: 0.6rem 2rem;
+}
+.Home > .call-to-actions > div > button:nth-child(2) {
+  margin-left: 5rem;
+}
+.Home > .call-to-actions > div > button > div > svg {
+  width: 12px;
+  fill: white;
+}
+.Home > .call-to-actions > div > button > p {
+  margin-left: 0.5rem;
+}
+
+.Home > .calls {
+  display: flex;
+  padding: 0 2%;
+}
+.Home > .calls h5 {
+  font-size: 18px;
+}
+.Home > .calls > .filter > h5 {
+  margin-bottom: 1rem;
+}
+.Home > .calls > .filter {
+  width: 20%;
+}
+.Home > .calls > .filter .checkbox-container {
+  margin: 0.5rem 0;
+}
+.Home > .calls > .filter label {
+  margin-left: 0.5rem;
+  font-size: 14px;
+}
+.Home > .calls > .calls-list {
+  flex: 1;
+}
+
+.Home > .calls > .filter > div,
+.Home > .calls > .calls-list > div {
+  padding-left: 0.8rem;
+}
+
+@media (max-width: 850px) {
+  .Home > .call-to-actions {
+    flex-direction: column;
+  }
+  .Home > .calls {
+    display: block;
+  }
+  .Home > .calls > .filter {
+    display: flex;
+    align-items: center;
+  }
+  .Home > .calls > .filter > h5 {
+    margin-bottom: 0;
+  }
+  .Home > .calls > .filter > div {
+    display: flex;
+    align-items: center;
+  }
+  .Home > .calls > .filter .checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+  }
+  .Home > .call-to-actions > .user {
+    margin-bottom: 2rem;
+  }
+}
+@media (max-width: 550px) {
+  .Home > .call-to-actions > div > button {
+    padding: 0.3rem 1rem;
+  }
+  .Home > .call-to-actions > div > button:nth-child(2) {
+    margin-left: 2.5rem;
+  }
+}

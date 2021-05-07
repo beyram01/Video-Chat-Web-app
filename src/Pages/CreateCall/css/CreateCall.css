@@ -1,0 +1,49 @@
+.create-call-container {
+  background-color: rgb(0, 29, 134, 0.2);
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  margin-top: 2rem;
+}
+.create-call-container > h2 {
+  font-weight: 500;
+  font-size: 23px;
+  padding: 1rem 0 2.5rem 0;
+}
+.create-call-container > #title,
+.create-call-container > #roomId {
+  display: block;
+  margin: auto;
+  width: 90%;
+  padding: 0.6rem 0.4rem;
+  margin-bottom: 1.5rem;
+  background-color: transparent;
+  border: 2px solid black;
+}
+.create-call-container select {
+  display: block;
+  margin-left: 5%;
+  background: transparent;
+  border: 2px solid black;
+  margin-bottom: 2rem;
+}
+.create-call-container > button {
+  width: 90%;
+  padding: 0.6rem 0;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 850px) {
+  .create-call-container {
+    width: 70%;
+  }
+}
+
+@media (max-width: 550px) {
+  .create-call-container {
+    width: 90%;
+  }
+  .create-call-container > h2 {
+    font-size: 20px;
+  }
+}

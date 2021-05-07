@@ -1,0 +1,45 @@
+.modal-background {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.modal-container {
+  width: 35%;
+  background-color: rgb(0, 29, 134, 0.2);
+}
+.modal-container > h2 {
+  text-align: center;
+  font-weight: 500;
+  font-size: 23px;
+  padding: 1rem 0 2.5rem 0;
+}
+.modal-container > #username {
+  display: block;
+  margin: auto;
+  width: 90%;
+  padding: 0.6rem 0.4rem;
+  margin-bottom: 1.5rem;
+}
+.modal-container > button {
+  width: 90%;
+  margin-left: 5%;
+  padding: 0.6rem 0;
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 850px) {
+  .modal-container {
+    width: 60%;
+  }
+}
+
+@media (max-width: 550px) {
+  .modal-container {
+    width: 90%;
+  }
+  .modal-container > h2 {
+    font-size: 20px;
+  }
+}
